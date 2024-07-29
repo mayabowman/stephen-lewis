@@ -10,12 +10,57 @@ h1, h2, h3, h4, h5, h6, .heading-font {
   font-family: "Arsenal SC", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .max-width {
   max-width: 1440px;;
 }
 
 .padding-large {
   padding: 24px;
+}
+
+.book-wrap {
+  overflow: hidden;
+  position: relative;
+  background-image:
+    radial-gradient(
+      #F2E2BA
+      #A37964,
+    );
+}
+
+.item-background {
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.book-content {
+  position: relative;
+}
+
+.book-content {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.book-content h2,
+.book-content p {
+  text-align: left;
+  max-width: 750px;
+  padding-right: 24px;
+}
+
+.spacer {
+  height: 150px;
 }
 
 .App {
@@ -26,6 +71,7 @@ h1, h2, h3, h4, h5, h6, .heading-font {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
