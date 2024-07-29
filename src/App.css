@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, .heading-font {
 
 ul {
   list-style-type: none;
+  padding-right: 40px;
 }
 
 .max-width {
@@ -25,11 +26,6 @@ ul {
 .book-wrap {
   overflow: hidden;
   position: relative;
-  background-image:
-    radial-gradient(
-      #F2E2BA
-      #A37964,
-    );
 }
 
 .item-background {
@@ -39,6 +35,7 @@ ul {
   top: 0;
   width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .book-content {
@@ -70,6 +67,20 @@ ul {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.link-faux {
+  display: block;
+  text-align: left;
+}
+
+.link-faux:hover {
+  text-decoration: underline;
 }
 
 
