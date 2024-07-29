@@ -83,6 +83,25 @@ ul {
   text-decoration: underline;
 }
 
+/* contact form styles */
+.contact-form {
+  text-align: left;
+}
+
+.contact-form label {
+  display: inline-block;
+  width: 100px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #F2E2BA;
+  border: 1px solid grey;
+}
+
+.input-wrap {
+  margin-bottom: 16px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

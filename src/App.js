@@ -4,6 +4,7 @@ import peasantsPriestsImg from './peasants_&_priests_cover.jpg';
 import peasantsPriestsBg from './peasants_&_priests_bg.webp';
 import barrelhouse88Img from './barrelhouse_88_cover.jpg';
 import barrelhouse88Bg from './barrelhouse_88_bg.webp';
+import ContactForm from './ContactForm';
 
 function App() {
 	const author = 'Stephen Lewis';
@@ -75,6 +76,7 @@ function App() {
 					{bookListItems}
 				</ul>
 			</div>
+			<ContactForm />
 		</div>
 	);
 }
