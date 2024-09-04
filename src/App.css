@@ -1,6 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+header {
+  margin-bottom: 36px;
+}
+
+.header-title__wrapper {
+  /* background-color: #534D41; */
+  background: radial-gradient(circle, rgba(83,77,65,1) 0%, rgba(17,15,13,1) 100%);
+  padding: 36px 0;
+  -webkit-box-shadow: -1px 6px 18px 3px rgba(174,167,152,1);
+  -moz-box-shadow: -1px 6px 18px 3px rgba(174,167,152,1);
+  box-shadow: -1px 6px 18px 3px rgba(174,167,152,1);
+}
+
+.header-title__wrapper h1 {
+  color: #FFFFFF;
+  margin: unset;
+}
+
+.footer {
+  background-color: #534D41;
+  color: #FFFFFF;
+  height: 300px;
+  padding: 36px 0;
+  margin-top: 48px;
+}
+
 body {
   font-family: "Lora", serif;
   background: #F2E2BA;
@@ -40,9 +66,6 @@ ul {
 
 .book-content {
   position: relative;
-}
-
-.book-content {
   display: flex;
   gap: 32px;
   align-items: center;
@@ -77,6 +100,7 @@ ul {
 .link-faux {
   display: block;
   text-align: left;
+  font-weight: 700;
 }
 
 .link-faux:hover {
@@ -85,22 +109,42 @@ ul {
 
 /* contact form styles */
 .contact-form {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 8px;
   text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .contact-form label {
   display: inline-block;
   width: 100px;
+  font-size: 14px;
 }
 
 .contact-form input,
 .contact-form textarea {
   background: #F2E2BA;
-  border: 1px solid grey;
+  border: none;
+  border-bottom: 2px solid #AEA798;
 }
 
 .input-wrap {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 16px;
+  flex: 1 1 48%;
+}
+
+.input-wrap.input-wrap__message {
+  flex: 0 0 100%;
+}
+
+form button {
+  padding: 16px;
+  background-color: #F2E2BA;
+  border: 1px solid #AEA798
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -109,16 +153,6 @@ ul {
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;

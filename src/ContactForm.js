@@ -34,7 +34,8 @@ const ContactForm = () => {
 
     return (
         <div>
-            <h2>Get in touch</h2>
+            <h2>Contact Us</h2>
+            <p>If you're dying to know when the next book is out, or have any other questions, fill this out to get in touch!</p>
             <form onSubmit={handleSubmit} className="contact-form padding-large">
                 <div className="input-wrap">
                     <label>
@@ -50,7 +51,7 @@ const ContactForm = () => {
                     <input type="email" name="email" value={formData.email} onChange={handleChange} required />
                 </div>
 
-                <div className="input-wrap">
+                <div className="input-wrap input-wrap__message">
                     <label>
                         Message:
                     </label>

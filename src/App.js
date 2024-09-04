@@ -35,7 +35,9 @@ function App() {
 				<img class="item-background" src={book.backgroundImg} alt="tapestry"/>
 
 				<div className="book-content">
-					<img src={book.coverImg} alt={book.altText}/>
+					<div className="cover-img__wrapper">
+						<img className="cover-img" src={book.coverImg} alt={book.altText}/>
+					</div>
 					<div>
 						<h2>{book.title}</h2>
 						<p>{book.summary}</p>
@@ -47,27 +49,12 @@ function App() {
 		</li>
 	);
 
-	console.log('books', books, bookListItems);
-
 	return (
 		<div className="App">
-		{/* <header className="App-header">
-			<img src={logo} className="App-logo" alt="logo" />
-			<p>
-			Edit <code>src/App.js</code> and save to reload.
-			</p>
-			<a
-			className="App-link"
-			href="https://reactjs.org"
-			target="_blank"
-			rel="noopener noreferrer"
-			>
-			Learn React
-			</a>
-		</header> */}
-
 			<header>
-				<h1>{author}</h1>
+				<div className="header-title__wrapper">
+					<h1>{author}</h1>
+				</div>
 				<p className="max-width padding-large">{authorBio}</p>
 			</header>
 			<div>
@@ -77,6 +64,7 @@ function App() {
 				</ul>
 			</div>
 			<ContactForm />
+			<footer className="footer">FUTURE FOOTER CONTENT</footer>
 		</div>
 	);
 }
