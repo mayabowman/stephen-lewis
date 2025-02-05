@@ -32,7 +32,7 @@ function App() {
 	const bookListItems = books.map((book) =>
 		<li className="book-wrap padding-large">
 			<a className="link" href={book.amazonURL} target="_blank" rel="noreferrer">
-				<img class="item-background" src={book.backgroundImg} alt="tapestry"/>
+				{/* <img class="item-background" src={book.backgroundImg} alt="tapestry"/> */}
 
 				<div className="book-content">
 					<div className="cover-img__wrapper">
@@ -44,27 +44,29 @@ function App() {
 						<span className="link-faux">Buy Here</span>
 					</div>
 				</div>
-				<div className="spacer"></div>
+				{/* <div className="spacer"></div> */}
 			</a>
 		</li>
 	);
 
 	return (
 		<div className="App">
-			<header>
-				<div className="header-title__wrapper">
-					<h1>{author}</h1>
+			<div className="body-wrapper">
+				<header>
+					<div className="header-title__wrapper">
+						<h1>{author}</h1>
+					</div>
+					<p className="max-width padding-large">{authorBio}</p>
+				</header>
+				<div>
+					{/* <h2>Books</h2> */}
+					<ul>
+						{bookListItems}
+					</ul>
 				</div>
-				<p className="max-width padding-large">{authorBio}</p>
-			</header>
-			<div>
-				{/* <h2>Books</h2> */}
-				<ul>
-					{bookListItems}
-				</ul>
+				<ContactForm />
+				<footer className="footer"></footer>
 			</div>
-			<ContactForm />
-			<footer className="footer">FUTURE FOOTER CONTENT</footer>
 		</div>
 	);
 }

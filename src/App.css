@@ -1,168 +1,238 @@
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+	--text-color: #E9DCC9;
+	--background-light: #E9DCC9;
+	--background-dark: #534D41;
+}
 
 header {
-  margin-bottom: 36px;
+	margin-bottom: 36px;
+}
+
+header p {
+	color: var(--text-color);
 }
 
 .header-title__wrapper {
   /* background-color: #534D41; */
-  background: radial-gradient(circle, rgba(83,77,65,1) 0%, rgba(17,15,13,1) 100%);
-  padding: 36px 0;
-  -webkit-box-shadow: -1px 6px 18px 3px rgba(174,167,152,1);
-  -moz-box-shadow: -1px 6px 18px 3px rgba(174,167,152,1);
-  box-shadow: -1px 6px 18px 3px rgba(174,167,152,1);
+	background: radial-gradient(circle, rgba(83,77,65,1) 0%, rgba(17,15,13,1) 100%);
+	padding: 18px 0;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-bottom: 1px solid #423e3a;
 }
 
 .header-title__wrapper h1 {
-  color: #FFFFFF;
-  margin: unset;
+	color: var(--text-color);
+	margin: unset;
 }
 
 .footer {
-  background-color: #534D41;
-  color: #FFFFFF;
-  height: 300px;
-  padding: 36px 0;
-  margin-top: 48px;
+	background: radial-gradient(circle, rgba(83,77,65,1) 0%, rgba(17,15,13,1) 100%);
+	color: var(--text-color);
+	height: 50px;
+	padding: 24px 0;
+	margin-top: 48px;
+	border-top: 1px solid #423e3a;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
 }
 
 body {
-  font-family: "Lora", serif;
-  background: #F2E2BA;
+	font-family: "Libre Baskerville", serif;
+	background: #F2E2BA;
 }
 
 h1, h2, h3, h4, h5, h6, .heading-font {
-  font-family: "Arsenal SC", sans-serif;
+	font-family: "League Spartan", sans-serif;
+}
+
+.text-light {
+	color: var(--text-color);
 }
 
 ul {
-  list-style-type: none;
-  padding-right: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	list-style-type: none;
+	padding-right: 40px;
 }
 
 .max-width {
-  max-width: 1440px;;
+	max-width: 1440px;;
 }
 
 .padding-large {
-  padding: 24px;
+	padding: 24px;
 }
 
 .book-wrap {
-  overflow: hidden;
-  position: relative;
+	background: #423e3a;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
 }
 
 .item-background {
-  opacity: 0.1;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+	opacity: 0.1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
 }
 
 .book-content {
-  position: relative;
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  margin-bottom: 64px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	align-items: center;
+	margin-bottom: 64px;
 }
 
 .book-content h2,
 .book-content p {
-  text-align: left;
-  max-width: 750px;
-  padding-right: 24px;
+	text-align: left;
+	max-width: 750px;
+	padding-right: 24px;
 }
 
 .spacer {
-  height: 150px;
+	height: 150px;
 }
 
 .App {
-  text-align: center;
+	padding: 24px 40px;
+	text-align: center;
+	background-color: var(--text-color);
 }
 
+.body-wrapper {
+	background-color: #2d2924;
+	border-radius: 8px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 1.6), 0px 2px 5px rgba(0, 0, 0, 0.2);}
+
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 .link {
-  color: #000000;
-  text-decoration: none;
+	color: var(--text-color);
+	text-decoration: none;
 }
 
 .link-faux {
-  display: block;
-  text-align: left;
-  font-weight: 700;
+	display: block;
+	text-align: left;
+	font-weight: 700;
 }
 
 .link-faux:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* contact form styles */
 .contact-form {
-  display: flex;
-  flex-flow: row wrap;
-  column-gap: 8px;
-  text-align: left;
-  max-width: 500px;
-  margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	column-gap: 8px;
+	text-align: left;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 .contact-form label {
-  display: inline-block;
-  width: 100px;
-  font-size: 14px;
+	display: inline-block;
+	width: 100px;
+	font-size: 14px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  background: #F2E2BA;
-  border: none;
-  border-bottom: 2px solid #AEA798;
+	background: #F2E2BA;
+	border: none;
+	border-bottom: 2px solid #AEA798;
+}
+
+.contact-form button:hover {
+	cursor: pointer;
 }
 
 .input-wrap {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-  flex: 1 1 48%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+	flex: 1 1 48%;
 }
 
 .input-wrap.input-wrap__message {
-  flex: 0 0 100%;
+	flex: 0 0 100%;
 }
 
 form button {
-  padding: 16px;
-  background-color: #F2E2BA;
-  border: 1px solid #AEA798
+	padding: 16px;
+	background-color: #F2E2BA;
+	border: 1px solid #AEA798
+}
+
+label {
+	margin-bottom: 12px;
+}
+
+input,
+text-area {
+	border: none;
+	border-radius: 2px;
+	padding: 8px;
+}
+
+button {
+	border: none;
+	border-radius: 2px;
+}
+
+@media (max-width: 767px) {
+	.cover-img {
+		width: 98%;
+	}
+}
+
+@media (min-width: 768px) {
+	ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.book-content p {
+		height: 450px;
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
