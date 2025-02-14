@@ -8,7 +8,11 @@ import ContactForm from './ContactForm';
 
 function App() {
 	const author = 'Stephen Lewis';
+<<<<<<< HEAD
 	const authorBio = 'Welcome to the website of Stephen Lewis, where a hunger for history, relentless research, and powerful prose meet. His two titles, Peasants & Priests and Barrelhouse Eighty-Eight, were inspired by classical fiction and set in thoroughly researched historical settings filled with interesting and complex people and places. We hope you support indie authorship, and if you enjoy what you read, please consider leaving a review!';
+=======
+	const authorBio = 'Welcome to the website of Stephen Lewis, where a hunger for history, relentless research, and powerful prose meet. His two titles, Peasants & Priests and Barrelhouse Eighty-Eight, were inspired by classical fiction and set in thoroughly researched historical settings filled with interesting and complex people and places. We hope you support indie authorship, and if you enjoy what you read, please consider leaving a review!'
+>>>>>>> 6c4969364cd3d3df84ee91459fa354dc1f3c3ecc
 	const books = [
 		{
 			id: 'p_p_2020-01',
