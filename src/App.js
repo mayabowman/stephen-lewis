@@ -8,7 +8,7 @@ import ContactForm from './ContactForm';
 
 function App() {
 	const author = 'Stephen Lewis';
-	const authorBio = 'Grandeur will ascetic chaos transvaluation faithful war ubermensch. Sea christianity grandeur free ocean suicide decieve abstract madness hatred faithful. Abstract spirit decrepit superiority inexpedient endless fearful against intentions.'
+	const authorBio = 'Welcome to the website of Stephen Lewis, where a hunger for history, relentless research, and powerful prose meet. His two titles, Peasants & Priests and Barrelhouse Eighty-Eight, were inspired by classical fiction and set in thoroughly researched historical settings filled with interesting and complex people and places. We hope you support indie authorship, and if you enjoy what you read, please consider leaving a review!'
 	const books = [
 		{
 			id: 'p_p_2020-01',
