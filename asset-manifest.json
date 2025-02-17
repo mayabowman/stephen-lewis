@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/stephen-lewis/static/css/main.d36a0d74.css",
-    "main.js": "/stephen-lewis/static/js/main.3dc026a5.js",
-    "static/js/453.4c7cc550.chunk.js": "/stephen-lewis/static/js/453.4c7cc550.chunk.js",
-    "static/media/peasants_&_priests_bg.webp": "/stephen-lewis/static/media/peasants_&_priests_bg.a797e4b6ca16a6e11442.webp",
-    "static/media/barrelhouse_88_bg.webp": "/stephen-lewis/static/media/barrelhouse_88_bg.838491c4555967ba7a8c.webp",
-    "static/media/barrelhouse_88_cover.jpg": "/stephen-lewis/static/media/barrelhouse_88_cover.02d0c7b974c48db00ebc.jpg",
-    "static/media/peasants_&_priests_cover.jpg": "/stephen-lewis/static/media/peasants_&_priests_cover.ec6e1f001ff7c99c52cd.jpg",
-    "index.html": "/stephen-lewis/index.html",
-    "main.d36a0d74.css.map": "/stephen-lewis/static/css/main.d36a0d74.css.map",
-    "main.3dc026a5.js.map": "/stephen-lewis/static/js/main.3dc026a5.js.map",
-    "453.4c7cc550.chunk.js.map": "/stephen-lewis/static/js/453.4c7cc550.chunk.js.map"
+    "main.css": "/static/css/main.d36a0d74.css",
+    "main.js": "/static/js/main.65a43ac8.js",
+    "static/js/453.4c7cc550.chunk.js": "/static/js/453.4c7cc550.chunk.js",
+    "static/media/peasants_&_priests_bg.webp": "/static/media/peasants_&_priests_bg.a797e4b6ca16a6e11442.webp",
+    "static/media/barrelhouse_88_bg.webp": "/static/media/barrelhouse_88_bg.838491c4555967ba7a8c.webp",
+    "static/media/barrelhouse_88_cover.jpg": "/static/media/barrelhouse_88_cover.02d0c7b974c48db00ebc.jpg",
+    "static/media/peasants_&_priests_cover.jpg": "/static/media/peasants_&_priests_cover.ec6e1f001ff7c99c52cd.jpg",
+    "index.html": "/index.html",
+    "main.d36a0d74.css.map": "/static/css/main.d36a0d74.css.map",
+    "main.65a43ac8.js.map": "/static/js/main.65a43ac8.js.map",
+    "453.4c7cc550.chunk.js.map": "/static/js/453.4c7cc550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d36a0d74.css",
-    "static/js/main.3dc026a5.js"
+    "static/js/main.65a43ac8.js"
   ]
 }
