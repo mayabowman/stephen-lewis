@@ -217,6 +217,24 @@ button {
 	}
 }
 
+@media (max-width: 1023px) {
+	.App {
+		padding: 24px;
+	}
+
+	.padding-large {
+		padding: 16px;
+	}
+
+	ul {
+		padding: 20px;
+	}
+
+	.book-content p {
+		padding-right: 16px;
+	}
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
