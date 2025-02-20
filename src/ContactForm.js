@@ -36,7 +36,7 @@ const ContactForm = () => {
         <div>
             <h2 className="text-light">Contact Us</h2>
             <p className="text-light">If you're dying to know when the next book is out, or have any other questions, fill this out to get in touch!</p>
-            <form className="contact-form padding-large" action="https://formsubmit.co/slewisbowman@gmail.com" method="POST">
+            <form className="contact-form padding-large" action="https://formsubmit.co/stephenlewisbooks@gmail.com" method="POST">
                 <div className="input-wrap">
                     <label className="text-light">
                         Name:
